@@ -19,7 +19,7 @@
 ||www.va.gov/GERIATRICS|||
 ||www.va.gov/grecc|||
 ||www.va.gov/gulfwaradvisorycommittee|||
-||www.va.gov/health|||
+|3|www.va.gov/health|||
 ||www.va.gov/healthbenefits|||
 ||www.va.gov/HEALTHBENEFITS/vtp|||
 ||www.va.gov/healthpolicyplanning|||
@@ -82,10 +82,10 @@
 ||www.va.gov/health/ISP/|||
 ||vrss.va.gov|||
 ||www.acquisitionacademy.va.gov|||
-||www.benefits.va.gov|||
+|1|www.benefits.va.gov|||
 ||www.bva.va.gov|||
 ||www.caregiver.va.gov|||
-||www.cem.va.gov|||
+|4|www.cem.va.gov|||
 ||www.cfm.va.gov|||
 ||www.dieteticinternship.va.gov|||
 ||www.diversity.va.gov|||
@@ -133,7 +133,7 @@
 ||www.simlearn.va.gov|||
 ||www.socialwork.va.gov|||
 ||www.telehealth.va.gov|||
-||www.vacareers.va.gov|||
+|2|www.vacareers.va.gov|||
 ||www.vaforvets.va.gov|||
 ||www.vetcenter.va.gov|||
 ||www.volunteer.va.gov|||
@@ -142,7 +142,7 @@
 ||www.blogs.va.gov/nvspse/|||
 ||connectedcare.va.gov|||
 ||www.energy.va.gov|||
-||www.myhealth.va.gov/mhv-portal-web/home|||
+|5|www.myhealth.va.gov/mhv-portal-web/home||https://www.myhealth.va.gov/sitemap.xml|
 ||www.valu.va.gov/Home/Index|||
 ||www.veterantraining.va.gov|||
 ||mobile.va.gov|||
