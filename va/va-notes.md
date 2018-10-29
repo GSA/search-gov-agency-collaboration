@@ -10,4 +10,8 @@ A: 100 are more important than 200, but can go in any order, at any time.
 
   Q: If there is no priority, are those lower than 200? or higher than 100?
   
+  A: If there is no priority assigned yet, it is _likely_ that these are more important than 100-level. I am working on getting at least a rough order in for those.
+  
 Q: Are urls case sensitive?
+
+A: No. They are transcribed as derived from internal documents, but no URL as far as I am aware is specifically case sensitive.
