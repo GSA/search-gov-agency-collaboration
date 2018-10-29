@@ -82,7 +82,7 @@
 ||www.va.gov/health/ISP/|||
 ||vrss.va.gov|||
 ||www.acquisitionacademy.va.gov|||
-|001|www.benefits.va.gov|||
+|001|www.benefits.va.gov|crawling|Redirects to benefits.va.gov/benefits/|
 ||www.bva.va.gov|||
 ||www.caregiver.va.gov|||
 |004|www.cem.va.gov|||
