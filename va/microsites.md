@@ -2,6 +2,16 @@
 
 |Priority|Domain|Indexing Status|Notes|
 |:-|:-|:-|:-|
+|001|www.benefits.va.gov|crawled. queued for indexing.|Redirects to benefits.va.gov/benefits/. this is the domain we'll index.|
+|002|www.vacareers.va.gov|crawled. queued for indexing.||
+|003|www.va.gov/health|crawling.||
+|004|www.cem.va.gov|||
+|005|www.myhealth.va.gov/mhv-portal-web/home|indexing content from sitemap.|https://www.myhealth.va.gov/sitemap.xml. Please advise if a crawl is needed to pick up additional content not included on sitemap.|
+|006|www.research.va.gov|||
+|007|www.ptsd.va.gov|||
+|008|www.va.gov/vaforms|||
+|009|www.valu.va.gov/Home/Index|||
+|010|www.va.gov/homeless|||
 ||www.va.gov/about_va|||
 ||www.va.gov/adr|||
 ||www.va.gov/ADVISORY|||
@@ -19,12 +29,10 @@
 ||www.va.gov/GERIATRICS|||
 ||www.va.gov/grecc|||
 ||www.va.gov/gulfwaradvisorycommittee|||
-|003|www.va.gov/health|||
 ||www.va.gov/healthbenefits|||
 ||www.va.gov/HEALTHBENEFITS/vtp|||
 ||www.va.gov/healthpolicyplanning|||
 ||www.va.gov/healthresourcecenter|||
-|010|www.va.gov/homeless|||
 ||www.va.gov/homeless/dchv.asp|||
 ||www.va.gov/homeless/dental.asp|||
 ||www.va.gov/ICARE|||
@@ -65,7 +73,6 @@
 ||www.va.gov/survivors|||
 ||www.va.gov/tribalgovernment|||
 ||www.va.gov/trm|||
-|008|www.va.gov/vaforms|||
 ||www.va.gov/valnet|||
 ||www.va.gov/vapubs|||
 ||www.va.gov/vastorenac|||
@@ -82,10 +89,8 @@
 ||www.va.gov/health/ISP/|||
 ||vrss.va.gov|||
 ||www.acquisitionacademy.va.gov|||
-|001|www.benefits.va.gov|crawling|Redirects to benefits.va.gov/benefits/|
 ||www.bva.va.gov|||
 ||www.caregiver.va.gov|||
-|004|www.cem.va.gov|||
 ||www.cfm.va.gov|||
 ||www.dieteticinternship.va.gov|||
 ||www.diversity.va.gov|||
@@ -122,7 +127,6 @@
 ||www.prevention.va.gov|||
 ||www.prosthetics.va.gov|||
 ||www.psychologytraining.va.gov|||
-|007|www.ptsd.va.gov|||
 ||www.publichealth.va.gov|||
 ||www.qualityandsafety.va.gov|||
 ||www.rcv.va.gov|||
@@ -133,7 +137,6 @@
 ||www.simlearn.va.gov|||
 ||www.socialwork.va.gov|||
 ||www.telehealth.va.gov|||
-|002|www.vacareers.va.gov|||
 ||www.vaforvets.va.gov|||
 ||www.vetcenter.va.gov|||
 ||www.volunteer.va.gov|||
@@ -142,8 +145,6 @@
 ||www.blogs.va.gov/nvspse/|||
 ||connectedcare.va.gov|||
 ||www.energy.va.gov|||
-|005|www.myhealth.va.gov/mhv-portal-web/home||https://www.myhealth.va.gov/sitemap.xml|
-|009|www.valu.va.gov/Home/Index|||
 ||www.veterantraining.va.gov|||
 ||mobile.va.gov|||
 ||www.ea.oit.va.gov|||
@@ -339,7 +340,6 @@
 |200|www.ncrar.research.va.gov|||
 |200|www.portlandcoin.research.va.gov|||
 |200|www.queri.research.va.gov|||
-|006|www.research.va.gov|||
 |200|www.seattle.eric.research.va.gov|||
 |200|www.seattledenvercoin.research.va.gov|||
 |200|www.vacsp.research.va.gov|||
