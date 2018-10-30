@@ -35,6 +35,7 @@ A: Shouldn't be a problem, I'll let you know when that's done.
 * Follow up: Awesome - just to be clear we're asking for one Allow line per folder, this is 79 folders.
 
   * The task is in, will let you know when live. I just want to make sure that the `Disallow: /` directive won't intefere with indexing pages in `sitemap-dynamic` -- for example, preview.va.gov/health-care/, which becomes www.va.gov/health-care/ on Nov 7.
+    * Confirmed - the robots.txt directives are for crawling, the urls published on the sitemap are accessed directly, so we'll note any robots meta tags on the pages when we go to them, but we won't have looked at the robots.txt file first.
 
 Q: Is it possible to add a `<lastmod>` field to the sitemap at preview.va.gov/sitemap-dynamic.xml?
 
