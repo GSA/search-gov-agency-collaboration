@@ -11,6 +11,8 @@ A: 100 are more important than 200, but can go in any order, at any time.
 Q: If there is no priority, are those lower than 200? or higher than 100?
   
 A: If there is no priority assigned yet, it is _very likely_ that these are more important than 100-level. I am working on getting at least a rough order in for those.
+
+* Update: I've ranked the rest in terms of importance in increments of 20, so 020, 040, 060, 080. The lower, the more important to crawl and index.
   
 ## Technical  
 
