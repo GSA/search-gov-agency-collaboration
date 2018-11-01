@@ -9,9 +9,9 @@
 |005|www.myhealth.va.gov/mhv-portal-web/home|indexing content from sitemap.|https://www.myhealth.va.gov/sitemap.xml. Please advise if a crawl is needed to pick up additional content not included on sitemap.|
 |006|www.research.va.gov|crawled. queued for indexing.||
 |007|www.ptsd.va.gov|crawled. queued for indexing.||
-|008|www.va.gov/vaforms|crawling.||
+|008|www.va.gov/vaforms|crawled||
 |009|www.valu.va.gov/Home/Index|crawled. queued for indexing.||
-|010|www.va.gov/homeless|||
+|010|www.va.gov/homeless|crawling||
 |020|www.bva.va.gov|crawled. queued for indexing.||
 |020|iris.custhelp.va.gov|crawled. queued for indexing.||
 |020|gravelocator.cem.va.gov/|crawled. queued for indexing.||
