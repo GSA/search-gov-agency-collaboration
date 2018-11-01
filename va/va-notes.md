@@ -14,7 +14,7 @@ A: If there is no priority assigned yet, it is _very likely_ that these are more
 
 * Update: I've ranked the rest in terms of importance in increments of 20, so 020, 040, 060, 080. The lower, the more important to crawl and index.
 
-* Note: Just want to make sure that vets.gov results will not be in the index. Vets.gov goes away on Nov 7.
+* Note: Just want to make sure that vets.gov results will not be in the index. Vets.gov goes away on Nov 7. Is there anything we should do to facilitate that?
   
 ## Technical  
 
@@ -40,10 +40,14 @@ A: Shouldn't be a problem, I'll let you know when that's done.
 
   * The task is in, will let you know when live. I just want to make sure that the `Disallow: /` directive won't intefere with indexing pages in `sitemap-dynamic` -- for example, preview.va.gov/health-care/, which becomes www.va.gov/health-care/ on Nov 7.
     * Confirmed - the robots.txt directives are for crawling, the urls published on the sitemap are accessed directly, so we'll note any robots meta tags on the pages when we go to them, but we won't have looked at the robots.txt file first.
+    
+    * This is complete.
 
 Q: Is it possible to add a `<lastmod>` field to the sitemap at preview.va.gov/sitemap-dynamic.xml?
 
 A: Definitely possible but might be a lift as it's not something we currently track. I'll check.
+
+* Update: I have this in the backlog but it will likely be post-Nov 7.
 
 Q: Can you take down preview.va.gov/sitemap-va.xml entirely? Since it's such a mixed bag and out of spec, it's not productive.
 
