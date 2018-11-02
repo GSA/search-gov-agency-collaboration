@@ -2,9 +2,9 @@
 
 |Priority|Domain|Indexing Status|Notes|
 |:-|:-|:-|:-|
-|001|www.benefits.va.gov|crawled. queued for indexing.|Redirects to benefits.va.gov/benefits/. this is the domain we'll index.|
+|001|www.benefits.va.gov|crawled. indexing.|Redirects to benefits.va.gov/benefits/. this is the domain we'll index.|
 |002|www.vacareers.va.gov|crawled. queued for indexing.||
-|003|www.va.gov/health|crawled. queued for indexing.||
+|003|www.va.gov/health|crawled||
 |004|www.cem.va.gov|crawled. queued for indexing.||
 |005|www.myhealth.va.gov/mhv-portal-web/home|indexing content from sitemap.|https://www.myhealth.va.gov/sitemap.xml. Please advise if a crawl is needed to pick up additional content not included on sitemap.|
 |006|www.research.va.gov|crawled. queued for indexing.||
