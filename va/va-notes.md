@@ -15,6 +15,7 @@ A: If there is no priority assigned yet, it is _very likely_ that these are more
 * Update: I've ranked the rest in terms of importance in increments of 20, so 020, 040, 060, 080. The lower, the more important to crawl and index.
 
 * Note: Just want to make sure that vets.gov results will not be in the index. Vets.gov goes away on Nov 7. Is there anything we should do to facilitate that?
+  * You will want to remove `vets.gov` from the `Domains` list for the `va` search site.
   
 ## Technical  
 
