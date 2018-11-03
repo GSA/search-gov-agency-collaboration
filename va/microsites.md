@@ -11,18 +11,18 @@
 |007|www.ptsd.va.gov|crawled. queued for indexing.||
 |008|www.va.gov/vaforms|crawled||
 |009|www.valu.va.gov/Home/Index|crawled. queued for indexing.||
-|010|www.va.gov/homeless|crawling||
+|010|www.va.gov/homeless|crawled||
 |020|www.bva.va.gov|crawled. queued for indexing.||
 |020|iris.custhelp.va.gov|crawled. queued for indexing.||
 |020|gravelocator.cem.va.gov/|crawled. queued for indexing.||
 |040|www.ruralhealth.va.gov|crawled. queued for indexing.||
 |040|www.cfm.va.gov|crawled. queued for indexing.||
 |040|www.womenshealth.va.gov|crawled. queued for indexing.||
-|060|www.va.gov/about_va|||
+|060|www.va.gov/about_va|crawled|There were only 9 pages in this folder that my crawler found, does that sound right?|
 |060|connectedcare.va.gov|crawled. queued for indexing.||
 |060|inquiry.vba.va.gov|crawled. queued for indexing.||
 |060|vaonce.vba.va.gov|crawled. queued for indexing.||
-|080|www.va.gov/adr|||
+|080|www.va.gov/adr|crawling||
 |080|www.va.gov/ADVISORY|||
 |080|www.va.gov/AssetManagement|||
 |080|www.va.gov/bluebutton|||
