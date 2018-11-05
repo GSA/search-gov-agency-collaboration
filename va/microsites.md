@@ -18,7 +18,7 @@
 |040|www.ruralhealth.va.gov|crawled. queued for indexing.||
 |040|www.cfm.va.gov|crawled. queued for indexing.||
 |040|www.womenshealth.va.gov|crawled. queued for indexing.||
-|060|www.va.gov/about_va|crawled|~~There were only 9 pages in this folder that my crawler found, does that sound right?~~ Human processing error, there were close to 50 items in this folder.|
+|060|www.va.gov/about_va|crawled||
 |060|connectedcare.va.gov|crawled. queued for indexing.||
 |060|inquiry.vba.va.gov|crawled. queued for indexing.||
 |060|vaonce.vba.va.gov|crawled. queued for indexing.||
