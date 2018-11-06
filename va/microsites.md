@@ -2,39 +2,39 @@
 
 |Priority|Domain|Indexing Status|Notes|
 |:-|:-|:-|:-|
-|001|www.benefits.va.gov|crawled. indexing.|Redirects to benefits.va.gov/benefits/. this is the domain we'll index.|
-|002|www.vacareers.va.gov|crawled. queued for indexing.||
-|003|www.va.gov/health|crawled||
-|004|www.cem.va.gov|crawled. queued for indexing.||
+|001|www.benefits.va.gov|queued for indexing. indexing.|Redirects to benefits.va.gov/benefits/. this is the domain we'll index.|
+|002|www.vacareers.va.gov|indexing||
+|003|www.va.gov/health|queued for indexing||
+|004|www.cem.va.gov|indexing||
 |005|www.myhealth.va.gov/mhv-portal-web/home|indexing content from sitemap.|https://www.myhealth.va.gov/sitemap.xml. Please advise if a crawl is needed to pick up additional content not included on sitemap.|
-|006|www.research.va.gov|crawled. queued for indexing.||
-|007|www.ptsd.va.gov|crawled. queued for indexing.||
-|008|www.va.gov/vaforms|crawled||
-|009|www.valu.va.gov/Home/Index|crawled. queued for indexing.||
-|010|www.va.gov/homeless|crawled||
-|020|www.bva.va.gov|crawled. queued for indexing.||
-|020|iris.custhelp.va.gov|crawled. queued for indexing.||
-|020|gravelocator.cem.va.gov/|crawled. queued for indexing.||
-|040|www.ruralhealth.va.gov|crawled. queued for indexing.||
-|040|www.cfm.va.gov|crawled. queued for indexing.||
-|040|www.womenshealth.va.gov|crawled. queued for indexing.||
-|060|www.va.gov/about_va|crawled||
-|060|connectedcare.va.gov|crawled. queued for indexing.||
-|060|inquiry.vba.va.gov|crawled. queued for indexing.||
-|060|vaonce.vba.va.gov|crawled. queued for indexing.||
-|080|www.va.gov/adr|crawled||
-|080|www.va.gov/ADVISORY|crawled||
-|080|www.va.gov/AssetManagement|crawled||
-|080|www.va.gov/bluebutton|||
-|080|www.va.gov/budget|||
-|080|www.va.gov/CENTERFORMINORITYVETERANS|||
-|080|www.va.gov/CFBNPARTNERSHIPS|||
-|080|www.va.gov/debtman|||
-|080|www.va.gov/diagnosticem|||
-|080|www.va.gov/employee/|||
-|080|www.va.gov/finance|||
-|080|www.va.gov/fromwartohome/|||
-|080|www.va.gov/fund|||
+|006|www.research.va.gov|indexing||
+|007|www.ptsd.va.gov|indexing||
+|008|www.va.gov/vaforms|queued for indexing||
+|009|www.valu.va.gov/Home/Index|indexing||
+|010|www.va.gov/homeless|queued for indexing||
+|020|www.bva.va.gov|indexing||
+|020|iris.custhelp.va.gov|indexing||
+|020|gravelocator.cem.va.gov/|indexing||
+|040|www.ruralhealth.va.gov|indexing||
+|040|www.cfm.va.gov|indexing||
+|040|www.womenshealth.va.gov|indexing||
+|060|www.va.gov/about_va|queued for indexing||
+|060|connectedcare.va.gov|indexing||
+|060|inquiry.vba.va.gov|indexing||
+|060|vaonce.vba.va.gov|indexing||
+|080|www.va.gov/adr|queued for indexing||
+|080|www.va.gov/ADVISORY|queued for indexing||
+|080|www.va.gov/AssetManagement|queued for indexing||
+|080|www.va.gov/bluebutton|queued for indexing||
+|080|www.va.gov/budget|queued for indexing||
+|080|www.va.gov/CENTERFORMINORITYVETERANS|crawled||
+|080|www.va.gov/CFBNPARTNERSHIPS|crawling||
+|080|www.va.gov/debtman|crawling||
+|080|www.va.gov/diagnosticem|crawling||
+|080|www.va.gov/employee/|crawling||
+|080|www.va.gov/finance|crawling||
+|080|www.va.gov/fromwartohome/|crawling||
+|080|www.va.gov/fund|crawling||
 |080|www.va.gov/GERIATRICS|||
 |080|www.va.gov/grecc|||
 |080|www.va.gov/gulfwaradvisorycommittee|||
@@ -96,251 +96,251 @@
 |080|www.va.gov/health/medicalinspector/|||
 |080|www.va.gov/health/patientadvocate/|||
 |080|www.va.gov/health/ISP/|||
-|080|vrss.va.gov|crawled. queued for indexing.||
-|080|www.acquisitionacademy.va.gov|crawled. queued for indexing.||
-|080|www.caregiver.va.gov|crawled. queued for indexing.||
-|080|www.dieteticinternship.va.gov|crawled. queued for indexing.||
-|080|www.diversity.va.gov|crawled. queued for indexing.||
-|080|www.ebenefits.va.gov|crawled. queued for indexing.||
-|080|www.epilepsy.va.gov|crawled. queued for indexing.||
-|080|www.ethics.va.gov|crawled. queued for indexing.||
-|080|www.explore.va.gov|crawled. queued for indexing.||
-|080|www.fsc.va.gov|crawled. queued for indexing.||
-|080|www.fss.va.gov|crawled. queued for indexing.||
-|080|www.gibill.va.gov/wave|crawled. queued for indexing.||
-|080|www.gibill.va.gov/wavemobile/index.do|crawled. queued for indexing.||
-|080|www.healthquality.va.gov|crawled. queued for indexing.||
-|080|www.hepatitis.va.gov|crawled. queued for indexing.||
-|080|www.hiv.va.gov|crawled. queued for indexing.||
-|080|www.listserv.va.gov|crawled. queued for indexing.||
-|080|www.mentalhealth.va.gov|crawled. queued for indexing.||
-|080|www.mirecc.va.gov|crawled. queued for indexing.||
-|080|www.move.va.gov|crawled. queued for indexing.||
-|080|www.nutrition.va.gov|crawled. queued for indexing.||
-|080|www.oedca.va.gov|crawled. queued for indexing.||
-|080|www.oefoif.va.gov|crawled. queued for indexing.||
-|080|www.oprm.va.gov|crawled. queued for indexing.||
-|080|www.osp.va.gov|crawled. queued for indexing.||
-|080|www.parkinsons.va.gov|crawled. queued for indexing.||
-|080|www.patientcare.va.gov|crawled. queued for indexing.||
-|080|www.patientsafety.va.gov|crawled. queued for indexing.||
-|080|www.pay.va.gov|crawled. queued for indexing.||
-|080|www.pbm.va.gov|crawled. queued for indexing.||
-|080|www.polytrauma.va.gov|crawled. queued for indexing.||
-|080|www.prevention.va.gov|crawled. queued for indexing.||
-|080|www.prosthetics.va.gov|crawled. queued for indexing.||
-|080|www.psychologytraining.va.gov|crawled. queued for indexing.||
-|080|www.publichealth.va.gov|crawled. queued for indexing.||
-|080|www.qualityandsafety.va.gov|crawled. queued for indexing.||
-|080|www.rcv.va.gov|crawled. queued for indexing.||
-|080|www.sci.va.gov|crawled. queued for indexing.||
-|080|www.section508.va.gov|crawled. queued for indexing.||
-|080|www.sep.va.gov/sep/web/guest/sep |crawled. queued for indexing.||
-|080|www.simlearn.va.gov|crawled. queued for indexing.||
-|080|www.socialwork.va.gov|crawled. queued for indexing.||
-|080|www.telehealth.va.gov|crawled. queued for indexing.||
-|080|www.vaforvets.va.gov|crawled. queued for indexing.||
-|080|www.vetcenter.va.gov|crawled. queued for indexing.||
-|080|www.volunteer.va.gov|crawled. queued for indexing.||
-|080|www.warrelatedillness.va.gov|crawled. queued for indexing.||
-|080|www.blogs.va.gov/nvspse/|crawled. queued for indexing.||
-|080|www.energy.va.gov|crawled. queued for indexing.||
-|080|www.veterantraining.va.gov|crawled. queued for indexing.||
-|080|mobile.va.gov|crawled. queued for indexing.||
-|080|www.ea.oit.va.gov|crawled. queued for indexing.||
-|080|www.itwd.oit.va.gov|crawled. queued for indexing.||
-|080|www.oit.va.gov|crawled. queued for indexing.||
-|100|www.alaska.va.gov|crawled. queued for indexing.|Facility sites can go in any order|
-|100|www.albany.va.gov|crawled. queued for indexing.||
-|100|www.albuquerque.va.gov|crawled. queued for indexing.||
-|100|www.alexandria.va.gov|crawled. queued for indexing.||
-|100|www.altoona.va.gov|crawled. queued for indexing.||
-|100|www.amarillo.va.gov|crawled. queued for indexing.||
-|100|www.annarbor.va.gov|crawled. queued for indexing.||
-|100|www.asheville.va.gov|crawled. queued for indexing.||
-|100|www.atlanta.va.gov|crawled. queued for indexing.||
-|100|www.augusta.va.gov|crawled. queued for indexing.||
-|100|www.bath.va.gov|crawled. queued for indexing.||
-|100|www.battlecreek.va.gov|crawled. queued for indexing.||
-|100|www.baypines.va.gov|crawled. queued for indexing.||
-|100|www.beckley.va.gov|crawled. queued for indexing.||
-|100|www.bedford.va.gov|crawled. queued for indexing.||
-|100|www.bigspring.va.gov|crawled. queued for indexing.||
-|100|www.biloxi.va.gov|crawled. queued for indexing.||
-|100|www.birmingham.va.gov|crawled. queued for indexing.||
-|100|www.blackhills.va.gov|crawled. queued for indexing.||
-|100|www.boise.va.gov|crawled. queued for indexing.||
-|100|www.boston.va.gov|crawled. queued for indexing.||
-|100|www.bronx.va.gov|crawled. queued for indexing.||
-|100|www.buffalo.va.gov|crawled. queued for indexing.||
-|100|www.butler.va.gov|crawled. queued for indexing.||
-|100|www.caribbean.va.gov|crawled. queued for indexing.||
-|100|www.centralalabama.va.gov|crawled. queued for indexing.||
-|100|www.centraliowa.va.gov|crawled. queued for indexing.||
-|100|www.centraltexas.va.gov|crawled. queued for indexing.||
-|100|www.centralwesternmass.va.gov|crawled. queued for indexing.||
-|100|www.charleston.va.gov|crawled. queued for indexing.||
-|100|www.cheyenne.va.gov|crawled. queued for indexing.||
-|100|www.chicago.va.gov|crawled. queued for indexing.||
-|100|www.chillicothe.va.gov|crawled. queued for indexing.||
-|100|www.cincinnati.va.gov|crawled. queued for indexing.||
-|100|www.clarksburg.va.gov|crawled. queued for indexing.||
-|100|www.cleveland.va.gov|crawled. queued for indexing.||
-|100|www.coatesville.va.gov|crawled. queued for indexing.||
-|100|www.columbiamo.va.gov|crawled. queued for indexing.||
-|100|www.columbiasc.va.gov|crawled. queued for indexing.||
-|100|www.columbus.va.gov|crawled. queued for indexing.||
-|100|www.connecticut.va.gov|crawled. queued for indexing.||
-|100|www.danville.va.gov|crawled. queued for indexing.||
-|100|www.dayton.va.gov|crawled. queued for indexing.||
-|100|www.denver.va.gov|crawled. queued for indexing.||
-|100|www.desertpacific.va.gov|crawled. queued for indexing.||
-|100|www.detroit.va.gov|crawled. queued for indexing.||
-|100|www.dublin.va.gov|crawled. queued for indexing.||
-|100|www.durham.va.gov|crawled. queued for indexing.||
-|100|www.elpaso.va.gov|crawled. queued for indexing.||
-|100|www.erie.va.gov|crawled. queued for indexing.||
-|100|www.fargo.va.gov|crawled. queued for indexing.||
-|100|www.fayettevillear.va.gov|crawled. queued for indexing.||
-|100|www.fayettevillenc.va.gov|crawled. queued for indexing.||
-|100|www.fresno.va.gov|crawled. queued for indexing.||
-|100|www.grandjunction.va.gov|crawled. queued for indexing.||
-|100|www.hampton.va.gov|crawled. queued for indexing.||
-|100|www.hawaii.va.gov|crawled. queued for indexing.||
-|100|www.heartoftexas.va.gov|crawled. queued for indexing.||
-|100|www.hines.va.gov|crawled. queued for indexing.||
-|100|www.houston.va.gov|crawled. queued for indexing.||
-|100|www.hudsonvalley.va.gov|crawled. queued for indexing.||
-|100|www.huntington.va.gov|crawled. queued for indexing.||
-|100|www.indianapolis.va.gov|crawled. queued for indexing.||
-|100|www.iowacity.va.gov|crawled. queued for indexing.||
-|100|www.ironmountain.va.gov|crawled. queued for indexing.||
-|100|www.jackson.va.gov|crawled. queued for indexing.||
-|100|www.kansascity.va.gov|crawled. queued for indexing.||
-|100|www.lasvegas.va.gov|crawled. queued for indexing.||
-|100|www.leavenworth.va.gov|crawled. queued for indexing.||
-|100|www.lebanon.va.gov|crawled. queued for indexing.||
-|100|www.lexington.va.gov|crawled. queued for indexing.||
-|100|www.littlerock.va.gov|crawled. queued for indexing.||
-|100|www.lomalinda.va.gov|crawled. queued for indexing.||
-|100|www.longbeach.va.gov|crawled. queued for indexing.||
-|100|www.losangeles.va.gov|crawled. queued for indexing.||
-|100|www.louisville.va.gov|crawled. queued for indexing.||
-|100|www.madison.va.gov|crawled. queued for indexing.||
-|100|www.maine.va.gov|crawled. queued for indexing.||
-|100|www.manchester.va.gov|crawled. queued for indexing.||
-|100|www.marion.va.gov|crawled. queued for indexing.||
-|100|www.martinsburg.va.gov|crawled. queued for indexing.||
-|100|www.maryland.va.gov|crawled. queued for indexing.||
-|100|www.memphis.va.gov|crawled. queued for indexing.||
-|100|www.miami.va.gov|crawled. queued for indexing.||
-|100|www.milwaukee.va.gov|crawled. queued for indexing.||
-|100|www.minneapolis.va.gov|crawled. queued for indexing.||
-|100|www.montana.va.gov|crawled. queued for indexing.||
-|100|www.mountainhome.va.gov|crawled. queued for indexing.||
-|100|www.muskogee.va.gov|crawled. queued for indexing.||
-|100|www.nebraska.va.gov|crawled. queued for indexing.||
-|100|www.newengland.va.gov|crawled. queued for indexing.||
-|100|www.newjersey.va.gov|crawled. queued for indexing.||
-|100|www.neworleans.va.gov|crawled. queued for indexing.||
-|100|www.northerncalifornia.va.gov|crawled. queued for indexing.||
-|100|www.northernindiana.va.gov|crawled. queued for indexing.||
-|100|www.northflorida.va.gov|crawled. queued for indexing.||
-|100|www.northport.va.gov|crawled. queued for indexing.||
-|100|www.northtexas.va.gov|crawled. queued for indexing.||
-|100|www.nyharbor.va.gov|crawled. queued for indexing.||
-|100|www.nynj.va.gov|crawled. queued for indexing.||
-|100|www.oklahoma.va.gov|crawled. queued for indexing.||
-|100|www.orlando.va.gov|crawled. queued for indexing.||
-|100|www.paloalto.va.gov|crawled. queued for indexing.||
-|100|www.philadelphia.va.gov|crawled. queued for indexing.||
-|100|www.phoenix.va.gov|crawled. queued for indexing.||
-|100|www.pittsburgh.va.gov|crawled. queued for indexing.||
-|100|www.poplarbluff.va.gov|crawled. queued for indexing.||
-|100|www.portland.va.gov|crawled. queued for indexing.||
-|100|www.prescott.va.gov|crawled. queued for indexing.||
-|100|www.providence.va.gov|crawled. queued for indexing.||
-|100|www.pugetsound.va.gov|crawled. queued for indexing.||
-|100|www.reno.va.gov|crawled. queued for indexing.||
-|100|www.richmond.va.gov|crawled. queued for indexing.||
-|100|www.roseburg.va.gov|crawled. queued for indexing.||
-|100|www.saginaw.va.gov|crawled. queued for indexing.||
-|100|www.salem.va.gov|crawled. queued for indexing.||
-|100|www.salisbury.va.gov|crawled. queued for indexing.||
-|100|www.saltlakecity.va.gov|crawled. queued for indexing.||
-|100|www.sandiego.va.gov|crawled. queued for indexing.||
-|100|www.sanfrancisco.va.gov|crawled. queued for indexing.||
-|100|www.sheridan.va.gov|crawled. queued for indexing.||
-|100|www.shreveport.va.gov|crawled. queued for indexing.||
-|100|www.siouxfalls.va.gov|crawled. queued for indexing.||
-|100|www.southeast.va.gov|crawled. queued for indexing.||
-|100|www.southernoregon.va.gov|crawled. queued for indexing.||
-|100|www.southtexas.va.gov|crawled. queued for indexing.||
-|100|www.southwest.va.gov|crawled. queued for indexing.||
-|100|www.spokane.va.gov|crawled. queued for indexing.||
-|100|www.stcloud.va.gov|crawled. queued for indexing.||
-|100|www.stlouis.va.gov|crawled. queued for indexing.||
-|100|www.syracuse.va.gov|crawled. queued for indexing.||
-|100|www.tampa.va.gov|crawled. queued for indexing.||
-|100|www.tennesseevalley.va.gov|crawled. queued for indexing.||
-|100|www.texasvalley.va.gov|crawled. queued for indexing.||
-|100|www.tomah.va.gov|crawled. queued for indexing.||
-|100|www.topeka.va.gov|crawled. queued for indexing.||
-|100|www.tucson.va.gov|crawled. queued for indexing.||
-|100|www.tuscaloosa.va.gov|crawled. queued for indexing.||
-|100|www.wallawalla.va.gov|crawled. queued for indexing.||
-|100|www.washingtondc.va.gov|crawled. queued for indexing.||
-|100|www.westpalmbeach.va.gov|crawled. queued for indexing.||
-|100|www.whiteriver.va.gov|crawled. queued for indexing.||
-|100|www.wichita.va.gov|crawled. queued for indexing.||
-|100|www.wilkes-barre.va.gov|crawled. queued for indexing.||
-|100|www.wilmington.va.gov|crawled. queued for indexing.||
-|100|www.lovell.fhcc.va.gov|crawled. queued for indexing.||
-|100|www.canandaigua.va.gov|crawled. queued for indexing.||
-|100|www.visn10.va.gov|crawled. queued for indexing.||
-|100|www.visn12.va.gov|crawled. queued for indexing.||
-|100|www.visn15.va.gov|crawled. queued for indexing.||
-|100|www.visn16.va.gov|crawled. queued for indexing.||
-|100|www.visn19.va.gov|crawled. queued for indexing.||
-|100|www.visn2.va.gov|crawled. queued for indexing.||
-|100|www.visn20.med.va.gov|crawled. queued for indexing.||
-|100|www.visn21.va.gov|crawled. queued for indexing.||
-|100|www.visn23.va.gov|crawled. queued for indexing.||
-|100|www.visn4.va.gov|crawled. queued for indexing.||
-|100|www.visn6.va.gov|crawled. queued for indexing.||
-|100|www.visn8.va.gov|crawled. queued for indexing.||
-|100|www.visn9.va.gov|crawled. queued for indexing.||
-|100|www.va.gov/visn5|crawled. queued for indexing.||
-|200|www.amputation.research.va.gov|crawled. queued for indexing.|Research sites can go in any order|
-|200|www.annarbor.hsrd.research.va.gov|crawled. queued for indexing.||
-|200|www.annarbor.research.va.gov|crawled. queued for indexing.||
-|200|www.aptcenter.research.va.gov|crawled. queued for indexing.||
-|200|www.avreap.research.va.gov|crawled. queued for indexing.||
-|200|www.brrc.research.va.gov|crawled. queued for indexing.||
-|200|www.cadre.research.va.gov|crawled. queued for indexing.||
-|200|www.cerc.research.va.gov|crawled. queued for indexing.||
-|200|www.cherp.research.va.gov|crawled. queued for indexing.||
-|200|www.chic.research.va.gov|crawled. queued for indexing.||
-|200|www.ci2i.research.va.gov|crawled. queued for indexing.||
-|200|www.cider.research.va.gov|crawled. queued for indexing.||
-|200|www.cidrr8.research.va.gov|crawled. queued for indexing.||
-|200|www.cindrr.research.va.gov|crawled. queued for indexing.||
-|200|www.cmc3.research.va.gov|crawled. queued for indexing.||
-|200|www.colmr.research.va.gov|crawled. queued for indexing.||
-|200|www.cshiip.research.va.gov|crawled. queued for indexing.||
-|200|www.durham.hsrd.research.va.gov|crawled. queued for indexing.||
-|200|www.hcfe.research.va.gov|crawled. queued for indexing.||
-|200|www.herc.research.va.gov|crawled. queued for indexing.||
-|200|www.houston.hsrd.research.va.gov|crawled. queued for indexing.||
-|200|www.hsrd.research.va.gov|crawled. queued for indexing.||
-|200|www.merce.research.va.gov|crawled. queued for indexing.||
-|200|www.ncrar.research.va.gov|crawled. queued for indexing.||
-|200|www.portlandcoin.research.va.gov|crawled. queued for indexing.||
-|200|www.queri.research.va.gov|crawled. queued for indexing.||
-|200|www.seattle.eric.research.va.gov|crawled. queued for indexing.||
-|200|www.seattledenvercoin.research.va.gov|crawled. queued for indexing.||
-|200|www.vacsp.research.va.gov|crawled. queued for indexing.||
-|200|www.virec.research.va.gov|crawled. queued for indexing.||
-|200|www.vision.research.va.gov|crawled. queued for indexing.||
-|200|www.ccdor.research.va.gov|crawled. queued for indexing.||
-|200|www.research.iowa-city.med.va.gov|crawled. queued for indexing.||
+|080|vrss.va.gov|indexing||
+|080|www.acquisitionacademy.va.gov|indexing||
+|080|www.caregiver.va.gov|indexing||
+|080|www.dieteticinternship.va.gov|indexing||
+|080|www.diversity.va.gov|indexing||
+|080|www.ebenefits.va.gov|indexing||
+|080|www.epilepsy.va.gov|indexing||
+|080|www.ethics.va.gov|indexing||
+|080|www.explore.va.gov|indexing||
+|080|www.fsc.va.gov|indexing||
+|080|www.fss.va.gov|indexing||
+|080|www.gibill.va.gov/wave|indexing||
+|080|www.gibill.va.gov/wavemobile/index.do|indexing||
+|080|www.healthquality.va.gov|indexing||
+|080|www.hepatitis.va.gov|indexing||
+|080|www.hiv.va.gov|indexing||
+|080|www.listserv.va.gov|indexing||
+|080|www.mentalhealth.va.gov|indexing||
+|080|www.mirecc.va.gov|indexing||
+|080|www.move.va.gov|indexing||
+|080|www.nutrition.va.gov|indexing||
+|080|www.oedca.va.gov|indexing||
+|080|www.oefoif.va.gov|indexing||
+|080|www.oprm.va.gov|indexing||
+|080|www.osp.va.gov|indexing||
+|080|www.parkinsons.va.gov|indexing||
+|080|www.patientcare.va.gov|indexing||
+|080|www.patientsafety.va.gov|indexing||
+|080|www.pay.va.gov|indexing||
+|080|www.pbm.va.gov|indexing||
+|080|www.polytrauma.va.gov|indexing||
+|080|www.prevention.va.gov|indexing||
+|080|www.prosthetics.va.gov|indexing||
+|080|www.psychologytraining.va.gov|indexing||
+|080|www.publichealth.va.gov|indexing||
+|080|www.qualityandsafety.va.gov|indexing||
+|080|www.rcv.va.gov|indexing||
+|080|www.sci.va.gov|indexing||
+|080|www.section508.va.gov|indexing||
+|080|www.sep.va.gov/sep/web/guest/sep |indexing||
+|080|www.simlearn.va.gov|indexing||
+|080|www.socialwork.va.gov|indexing||
+|080|www.telehealth.va.gov|indexing||
+|080|www.vaforvets.va.gov|indexing||
+|080|www.vetcenter.va.gov|indexing||
+|080|www.volunteer.va.gov|indexing||
+|080|www.warrelatedillness.va.gov|indexing||
+|080|www.blogs.va.gov/nvspse/|indexing||
+|080|www.energy.va.gov|indexing||
+|080|www.veterantraining.va.gov|indexing||
+|080|mobile.va.gov|indexing||
+|080|www.ea.oit.va.gov|indexing||
+|080|www.itwd.oit.va.gov|indexing||
+|080|www.oit.va.gov|indexing||
+|100|www.alaska.va.gov|indexing|Facility sites can go in any order|
+|100|www.albany.va.gov|indexing||
+|100|www.albuquerque.va.gov|indexing||
+|100|www.alexandria.va.gov|indexing||
+|100|www.altoona.va.gov|indexing||
+|100|www.amarillo.va.gov|indexing||
+|100|www.annarbor.va.gov|indexing||
+|100|www.asheville.va.gov|indexing||
+|100|www.atlanta.va.gov|indexing||
+|100|www.augusta.va.gov|indexing||
+|100|www.bath.va.gov|indexing||
+|100|www.battlecreek.va.gov|indexing||
+|100|www.baypines.va.gov|indexing||
+|100|www.beckley.va.gov|indexing||
+|100|www.bedford.va.gov|indexing||
+|100|www.bigspring.va.gov|indexing||
+|100|www.biloxi.va.gov|indexing||
+|100|www.birmingham.va.gov|indexing||
+|100|www.blackhills.va.gov|indexing||
+|100|www.boise.va.gov|indexing||
+|100|www.boston.va.gov|indexing||
+|100|www.bronx.va.gov|indexing||
+|100|www.buffalo.va.gov|indexing||
+|100|www.butler.va.gov|indexing||
+|100|www.caribbean.va.gov|indexing||
+|100|www.centralalabama.va.gov|indexing||
+|100|www.centraliowa.va.gov|indexing||
+|100|www.centraltexas.va.gov|indexing||
+|100|www.centralwesternmass.va.gov|indexing||
+|100|www.charleston.va.gov|indexing||
+|100|www.cheyenne.va.gov|indexing||
+|100|www.chicago.va.gov|indexing||
+|100|www.chillicothe.va.gov|indexing||
+|100|www.cincinnati.va.gov|indexing||
+|100|www.clarksburg.va.gov|indexing||
+|100|www.cleveland.va.gov|indexing||
+|100|www.coatesville.va.gov|indexing||
+|100|www.columbiamo.va.gov|indexing||
+|100|www.columbiasc.va.gov|indexing||
+|100|www.columbus.va.gov|indexing||
+|100|www.connecticut.va.gov|indexing||
+|100|www.danville.va.gov|indexing||
+|100|www.dayton.va.gov|indexing||
+|100|www.denver.va.gov|indexing||
+|100|www.desertpacific.va.gov|indexing||
+|100|www.detroit.va.gov|indexing||
+|100|www.dublin.va.gov|indexing||
+|100|www.durham.va.gov|indexing||
+|100|www.elpaso.va.gov|indexing||
+|100|www.erie.va.gov|indexing||
+|100|www.fargo.va.gov|indexing||
+|100|www.fayettevillear.va.gov|indexing||
+|100|www.fayettevillenc.va.gov|indexing||
+|100|www.fresno.va.gov|indexing||
+|100|www.grandjunction.va.gov|indexing||
+|100|www.hampton.va.gov|indexing||
+|100|www.hawaii.va.gov|indexing||
+|100|www.heartoftexas.va.gov|indexing||
+|100|www.hines.va.gov|indexing||
+|100|www.houston.va.gov|indexing||
+|100|www.hudsonvalley.va.gov|indexing||
+|100|www.huntington.va.gov|indexing||
+|100|www.indianapolis.va.gov|indexing||
+|100|www.iowacity.va.gov|indexing||
+|100|www.ironmountain.va.gov|indexing||
+|100|www.jackson.va.gov|indexing||
+|100|www.kansascity.va.gov|indexing||
+|100|www.lasvegas.va.gov|indexing||
+|100|www.leavenworth.va.gov|indexing||
+|100|www.lebanon.va.gov|indexing||
+|100|www.lexington.va.gov|indexing||
+|100|www.littlerock.va.gov|indexing||
+|100|www.lomalinda.va.gov|indexing||
+|100|www.longbeach.va.gov|indexing||
+|100|www.losangeles.va.gov|indexing||
+|100|www.louisville.va.gov|indexing||
+|100|www.madison.va.gov|indexing||
+|100|www.maine.va.gov|indexing||
+|100|www.manchester.va.gov|indexing||
+|100|www.marion.va.gov|indexing||
+|100|www.martinsburg.va.gov|indexing||
+|100|www.maryland.va.gov|indexing||
+|100|www.memphis.va.gov|indexing||
+|100|www.miami.va.gov|indexing||
+|100|www.milwaukee.va.gov|indexing||
+|100|www.minneapolis.va.gov|indexing||
+|100|www.montana.va.gov|indexing||
+|100|www.mountainhome.va.gov|indexing||
+|100|www.muskogee.va.gov|indexing||
+|100|www.nebraska.va.gov|indexing||
+|100|www.newengland.va.gov|indexing||
+|100|www.newjersey.va.gov|indexing||
+|100|www.neworleans.va.gov|indexing||
+|100|www.northerncalifornia.va.gov|indexing||
+|100|www.northernindiana.va.gov|indexing||
+|100|www.northflorida.va.gov|indexing||
+|100|www.northport.va.gov|indexing||
+|100|www.northtexas.va.gov|indexing||
+|100|www.nyharbor.va.gov|indexing||
+|100|www.nynj.va.gov|indexing||
+|100|www.oklahoma.va.gov|indexing||
+|100|www.orlando.va.gov|indexing||
+|100|www.paloalto.va.gov|indexing||
+|100|www.philadelphia.va.gov|indexing||
+|100|www.phoenix.va.gov|indexing||
+|100|www.pittsburgh.va.gov|indexing||
+|100|www.poplarbluff.va.gov|indexing||
+|100|www.portland.va.gov|indexing||
+|100|www.prescott.va.gov|indexing||
+|100|www.providence.va.gov|indexing||
+|100|www.pugetsound.va.gov|indexing||
+|100|www.reno.va.gov|indexing||
+|100|www.richmond.va.gov|indexing||
+|100|www.roseburg.va.gov|indexing||
+|100|www.saginaw.va.gov|indexing||
+|100|www.salem.va.gov|indexing||
+|100|www.salisbury.va.gov|indexing||
+|100|www.saltlakecity.va.gov|indexing||
+|100|www.sandiego.va.gov|indexing||
+|100|www.sanfrancisco.va.gov|indexing||
+|100|www.sheridan.va.gov|indexing||
+|100|www.shreveport.va.gov|indexing||
+|100|www.siouxfalls.va.gov|indexing||
+|100|www.southeast.va.gov|indexing||
+|100|www.southernoregon.va.gov|indexing||
+|100|www.southtexas.va.gov|indexing||
+|100|www.southwest.va.gov|indexing||
+|100|www.spokane.va.gov|indexing||
+|100|www.stcloud.va.gov|indexing||
+|100|www.stlouis.va.gov|indexing||
+|100|www.syracuse.va.gov|indexing||
+|100|www.tampa.va.gov|indexing||
+|100|www.tennesseevalley.va.gov|indexing||
+|100|www.texasvalley.va.gov|indexing||
+|100|www.tomah.va.gov|indexing||
+|100|www.topeka.va.gov|indexing||
+|100|www.tucson.va.gov|indexing||
+|100|www.tuscaloosa.va.gov|indexing||
+|100|www.wallawalla.va.gov|indexing||
+|100|www.washingtondc.va.gov|indexing||
+|100|www.westpalmbeach.va.gov|indexing||
+|100|www.whiteriver.va.gov|indexing||
+|100|www.wichita.va.gov|indexing||
+|100|www.wilkes-barre.va.gov|indexing||
+|100|www.wilmington.va.gov|indexing||
+|100|www.lovell.fhcc.va.gov|indexing||
+|100|www.canandaigua.va.gov|indexing||
+|100|www.visn10.va.gov|indexing||
+|100|www.visn12.va.gov|indexing||
+|100|www.visn15.va.gov|indexing||
+|100|www.visn16.va.gov|indexing||
+|100|www.visn19.va.gov|indexing||
+|100|www.visn2.va.gov|indexing||
+|100|www.visn20.med.va.gov|indexing||
+|100|www.visn21.va.gov|indexing||
+|100|www.visn23.va.gov|indexing||
+|100|www.visn4.va.gov|indexing||
+|100|www.visn6.va.gov|indexing||
+|100|www.visn8.va.gov|indexing||
+|100|www.visn9.va.gov|indexing||
+|100|www.va.gov/visn5|indexing||
+|200|www.amputation.research.va.gov|indexing|Research sites can go in any order|
+|200|www.annarbor.hsrd.research.va.gov|indexing||
+|200|www.annarbor.research.va.gov|indexing||
+|200|www.aptcenter.research.va.gov|indexing||
+|200|www.avreap.research.va.gov|indexing||
+|200|www.brrc.research.va.gov|indexing||
+|200|www.cadre.research.va.gov|indexing||
+|200|www.cerc.research.va.gov|indexing||
+|200|www.cherp.research.va.gov|indexing||
+|200|www.chic.research.va.gov|indexing||
+|200|www.ci2i.research.va.gov|indexing||
+|200|www.cider.research.va.gov|indexing||
+|200|www.cidrr8.research.va.gov|indexing||
+|200|www.cindrr.research.va.gov|indexing||
+|200|www.cmc3.research.va.gov|indexing||
+|200|www.colmr.research.va.gov|indexing||
+|200|www.cshiip.research.va.gov|indexing||
+|200|www.durham.hsrd.research.va.gov|indexing||
+|200|www.hcfe.research.va.gov|indexing||
+|200|www.herc.research.va.gov|indexing||
+|200|www.houston.hsrd.research.va.gov|indexing||
+|200|www.hsrd.research.va.gov|indexing||
+|200|www.merce.research.va.gov|indexing||
+|200|www.ncrar.research.va.gov|indexing||
+|200|www.portlandcoin.research.va.gov|indexing||
+|200|www.queri.research.va.gov|indexing||
+|200|www.seattle.eric.research.va.gov|indexing||
+|200|www.seattledenvercoin.research.va.gov|indexing||
+|200|www.vacsp.research.va.gov|indexing||
+|200|www.virec.research.va.gov|indexing||
+|200|www.vision.research.va.gov|indexing||
+|200|www.ccdor.research.va.gov|indexing||
+|200|www.research.iowa-city.med.va.gov|indexing||
