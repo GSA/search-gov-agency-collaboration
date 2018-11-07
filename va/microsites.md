@@ -13,7 +13,7 @@
 |009|www.valu.va.gov/Home/Index|done||
 |010|www.va.gov/homeless|done||
 |020|www.bva.va.gov|done||
-|020|iris.custhelp.va.gov|indexing||
+|020|iris.custhelp.va.gov|indexing|Robots.txt blocks crawlers; indexing sitemap|
 |020|gravelocator.cem.va.gov/|done||
 |040|www.ruralhealth.va.gov|done||
 |040|www.cfm.va.gov|done||
@@ -104,11 +104,11 @@
 |080|www.ebenefits.va.gov|done||
 |080|www.epilepsy.va.gov|done||
 |080|www.ethics.va.gov|done||
-|080|www.explore.va.gov|done||
+|080|www.explore.va.gov|done|Redirected to explore.va.gov|
 |080|www.fsc.va.gov|done||
 |080|www.fss.va.gov|done||
 |080|www.gibill.va.gov/wave|done||
-|080|www.gibill.va.gov/wavemobile/index.do|done||
+|080|www.gibill.va.gov/wavemobile/index.do||not indexable per HTML metadata|
 |080|www.healthquality.va.gov|done||
 |080|www.hepatitis.va.gov|done||
 |080|www.hiv.va.gov|done||
@@ -249,7 +249,7 @@
 |100|www.northport.va.gov|done||
 |100|www.northtexas.va.gov|done||
 |100|www.nyharbor.va.gov|done||
-|100|www.nynj.va.gov|done||
+|100|www.nynj.va.gov|done|Redirected to www.visn2.va.gov|
 |100|www.oklahoma.va.gov|done||
 |100|www.orlando.va.gov|done||
 |100|www.paloalto.va.gov|done||
@@ -276,7 +276,7 @@
 |100|www.southeast.va.gov|done||
 |100|www.southernoregon.va.gov|done||
 |100|www.southtexas.va.gov|done||
-|100|www.southwest.va.gov|done||
+|100|www.southwest.va.gov|done|Redirected to www.desertpacific.va.gov|
 |100|www.spokane.va.gov|done||
 |100|www.stcloud.va.gov|done||
 |100|www.stlouis.va.gov|done||
@@ -323,13 +323,13 @@
 |200|www.chic.research.va.gov|done||
 |200|www.ci2i.research.va.gov|done||
 |200|www.cider.research.va.gov|done||
-|200|www.cidrr8.research.va.gov|done||
+|200|www.cidrr8.research.va.gov|done|Redirected to www.cindrr.research.va.gov|
 |200|www.cindrr.research.va.gov|done||
 |200|www.cmc3.research.va.gov|done||
-|200|www.colmr.research.va.gov|done||
+|200|www.colmr.research.va.gov|done|Redirectd to www.choir.research.va.gov|
 |200|www.cshiip.research.va.gov|done||
 |200|www.durham.hsrd.research.va.gov|done||
-|200|www.hcfe.research.va.gov|done||
+|200|www.hcfe.research.va.gov|done|Redirected to www.peprec.research.va.gov|
 |200|www.herc.research.va.gov|done||
 |200|www.houston.hsrd.research.va.gov|done||
 |200|www.hsrd.research.va.gov|done||
