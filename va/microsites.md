@@ -7,13 +7,13 @@
 |003|www.va.gov/health|done||
 |004|www.cem.va.gov|done||
 |005|www.myhealth.va.gov/mhv-portal-web/home|done|https://www.myhealth.va.gov/sitemap.xml. Please advise if a crawl is needed to pick up additional content not included on sitemap.|
-|006|www.research.va.gov|indexing||
+|006|www.research.va.gov|done||
 |007|www.ptsd.va.gov|done||
 |008|www.va.gov/vaforms|done||
 |009|www.valu.va.gov/Home/Index|done||
 |010|www.va.gov/homeless|done||
 |020|www.bva.va.gov|done||
-|020|iris.custhelp.va.gov|indexing|Robots.txt blocks crawlers; indexing sitemap|
+|020|iris.custhelp.va.gov|done|Robots.txt blocks crawlers; indexing sitemap|
 |020|gravelocator.cem.va.gov/|done||
 |040|www.ruralhealth.va.gov|done||
 |040|www.cfm.va.gov|done||
@@ -27,38 +27,38 @@
 |080|www.va.gov/AssetManagement|done||
 |080|www.va.gov/bluebutton|done||
 |080|www.va.gov/budget|done||
-|080|www.va.gov/CENTERFORMINORITYVETERANS|queued for indexing||
-|080|www.va.gov/CFBNPARTNERSHIPS|queued for indexing||
-|080|www.va.gov/debtman|queued for indexing||
-|080|www.va.gov/diagnosticem|queued for indexing||
-|080|www.va.gov/employee/|queued for indexing||
-|080|www.va.gov/finance|queued for indexing||
-|080|www.va.gov/fromwartohome/|queued for indexing||
-|080|www.va.gov/fund|queued for indexing||
-|080|www.va.gov/GERIATRICS|crawling||
-|080|www.va.gov/grecc|crawling||
-|080|www.va.gov/gulfwaradvisorycommittee|crawling||
-|080|www.va.gov/healthbenefits|crawling||
-|080|www.va.gov/HEALTHBENEFITS/vtp|crawling||
-|080|www.va.gov/healthpolicyplanning|crawling||
-|080|www.va.gov/healthresourcecenter|crawling||
-|080|www.va.gov/homeless/dchv.asp|crawling||
-|080|www.va.gov/homeless/dental.asp|crawling||
-|080|www.va.gov/ICARE|crawling||
-|080|www.va.gov/identitytheft|crawling||
-|080|www.va.gov/imaging|crawling||
-|080|www.va.gov/jobs|||
-|080|www.va.gov/library|||
-|080|www.va.gov/lmr|||
-|080|www.va.gov/nac|||
-|080|www.va.gov/NCOD|||
-|080|www.va.gov/nursing|||
-|080|www.va.gov/oaa|||
-|080|www.va.gov/oaem|||
-|080|www.va.gov/oca|||
-|080|www.va.gov/ofcadmin|||
-|080|www.va.gov/ogc|||
-|080|www.va.gov/ogc/apps/accreditation|||
+|080|www.va.gov/CENTERFORMINORITYVETERANS|done||
+|080|www.va.gov/CFBNPARTNERSHIPS|done||
+|080|www.va.gov/debtman|done||
+|080|www.va.gov/diagnosticem|done||
+|080|www.va.gov/employee/|done||
+|080|www.va.gov/finance|done||
+|080|www.va.gov/fromwartohome/|done||
+|080|www.va.gov/fund|done||
+|080|www.va.gov/GERIATRICS|queued for indexing||
+|080|www.va.gov/grecc|queued for indexing||
+|080|www.va.gov/gulfwaradvisorycommittee|queued for indexing||
+|080|www.va.gov/healthbenefits|queued for indexing||
+|080|www.va.gov/HEALTHBENEFITS/vtp|queued for indexing||
+|080|www.va.gov/healthpolicyplanning|queued for indexing||
+|080|www.va.gov/healthresourcecenter|queued for indexing||
+|080|www.va.gov/homeless/dchv.asp|queued for indexing||
+|080|www.va.gov/homeless/dental.asp|queued for indexing||
+|080|www.va.gov/ICARE|queued for indexing||
+|080|www.va.gov/identitytheft|queued for indexing||
+|080|www.va.gov/imaging|queued for indexing||
+|080|www.va.gov/jobs|crawling||
+|080|www.va.gov/library|crawling||
+|080|www.va.gov/lmr|crawling||
+|080|www.va.gov/nac|crawling||
+|080|www.va.gov/NCOD|crawling||
+|080|www.va.gov/nursing|crawling||
+|080|www.va.gov/oaa|crawling||
+|080|www.va.gov/oaem|crawling||
+|080|www.va.gov/oca|crawling||
+|080|www.va.gov/ofcadmin|crawling||
+|080|www.va.gov/ogc|crawling||
+|080|www.va.gov/ogc/apps/accreditation|crawling||
 |080|www.va.gov/ohrm|||
 |080|www.va.gov/oig|||
 |080|www.va.gov/OM|||
