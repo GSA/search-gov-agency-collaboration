@@ -35,7 +35,7 @@
 |080|www.va.gov/finance|done|||
 |080|www.va.gov/fromwartohome/|done|||
 |080|www.va.gov/fund|done|||
-|080|www.va.gov/GERIATRICS|queued for indexing|||
+|080|www.va.gov/GERIATRICS|queued for indexing||Content not included in main www.va.gov sitemap|
 |080|www.va.gov/grecc|queued for indexing|||
 |080|www.va.gov/gulfwaradvisorycommittee|queued for indexing|||
 |080|www.va.gov/healthbenefits|queued for indexing|||
