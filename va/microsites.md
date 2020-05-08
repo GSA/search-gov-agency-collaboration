@@ -2,7 +2,7 @@
 
 |Priority|Domain|Indexing Status|General Notes|Sitemap Notes|
 |:-|:-|:-|:-|:-|
-|001|www.benefits.va.gov|done|Redirects to benefits.va.gov/benefits/. this is the domain we'll index.||
+|001|www.benefits.va.gov|done|Redirects to benefits.va.gov/benefits/. this is the domain we'll index.|[https://benefits.va.gov/benefits/sitemap.xml](https://benefits.va.gov/benefits/sitemap.xml)|
 |002|www.vacareers.va.gov|done|||
 |003|www.va.gov/health|done|||
 |004|www.cem.va.gov|done|||
