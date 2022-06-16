@@ -1,14 +1,17 @@
+# import dependencies
+# if you are running this for the first time, you may need to 'pip3 install package-name', ex 'pip3 install requests_html'
+# check the console when you run it for any other dependencies you may need to install
 from requests_html import HTMLSession
 import csv
 import pandas as pd
 
+# place the input file (format = xlsx) in a folder named 'input-files' and name it 'market_share_input'
+# the file should have one column labeled "site_handle" (can be empty) and one column labeled "urls"
 df = pd.read_excel('input-files/market_share_input.xlsx')
 marketshare_urls = pd.Series(df.urls.values,index=df.site_handle).to_dict()
 
+# prints the dictionary into the console
 print(marketshare_urls)
-
-# # test array
-# # marketshare_urls = ["https://www.sandia.gov/"]
 
 # set up file
 output = []
@@ -21,6 +24,7 @@ columns = (
     "http"
 )
 
+# this step iterates through all URLs and outputs the findings to a CSV
 with open('output-files/market-share-stats.csv', "w") as csvfile:
     w = csv.DictWriter(csvfile, columns)
     w.writeheader()
