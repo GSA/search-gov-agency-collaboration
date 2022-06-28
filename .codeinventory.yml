@@ -1,0 +1,12 @@
+name: 'Search.gov Agency Collaboration'
+description: 'Repository for cross-team collaboration with Search.gov'
+license: null
+openSourceProject: 1
+governmentWideReuseProject: 0
+tags:
+    - GSA
+    - Search.gov
+    - search
+    - collaboration
+contact:
+    email: search@gsa.gov
