@@ -2,3 +2,4 @@
 .DS_Store
 **/input-files
 **/output-files
+*.txt
