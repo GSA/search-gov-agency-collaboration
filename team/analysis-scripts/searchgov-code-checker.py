@@ -2,7 +2,10 @@
 # if you are running this for the first time, you may need to 'pip3 install package-name', ex 'pip3 install requests_html'
 # check the console when you run it for any other dependencies you may need to install
 from requests_html import HTMLSession
+from bs4 import BeautifulSoup
+import re
 import csv
+import json
 import pandas as pd
 
 # place the input file (format = xlsx) in a folder named 'input-files' and name it 'market_share_input'
@@ -17,11 +20,14 @@ print(marketshare_urls)
 output = []
 columns = ( 
     "url",
-    "connection_status",
+    "error_status",
     "affiliate",
     "searchbox",
     "customer",
-    "http"
+    "http",
+    "extracted_affiliate",
+    "affiliate_match"
+
 )
 
 # this step iterates through all URLs and outputs the findings to a CSV
@@ -32,7 +38,7 @@ with open('output-files/market-share-stats.csv', "w") as csvfile:
     for id, url in marketshare_urls.items():
         if url.find("https://") == -1 and url.find("http://") == -1:
             url = "https://" + url
-        d = {"url": url, "affiliate": id, "connection_status": "OK"}
+        d = {"url": url, "affiliate": id, "error_status": "OK"}
         
 
         try: 
@@ -42,33 +48,51 @@ with open('output-files/market-share-stats.csv', "w") as csvfile:
             r = session.get(url)
             r.html.render()
             body = r.text
+            soup = BeautifulSoup(body, "html.parser")
             
             # sets the booleans to false to start - only sets to true if evidence is found for it
-            has_searchbox = False
-            is_customer = False
-            is_http = False
+            d["searchbox"] = False
+            d["customer"] = False
+            d["http"] = False
+            d["affiliate_match"] = False
 
-            # search is present 
+            # checks to see if any search function is present 
             if body.find("search") > -1:
-                has_searchbox = True
+                 d["searchbox"] = True
 
             # looking for standard search box string (affiliate=) or DMA (skin-search-input usagov-search-autocomplete)
             if body.find("\"affiliate\"") > -1 or body.find("\"aid\":") > -1 or body.find("skin-search-input usagov-search-autocomplete") > -1:
-                is_customer = True
+                d["customer"] = True
 
-            # incorrectly has http in their search bar, which will lead to an error
+            # checks to see if site incorrectly has http in their search bar, which will lead to an error
             if body.find("http://search.usa.gov") > -1:
-                is_http = True
+                d["http"] = True
 
-            d["searchbox"] = has_searchbox
-            d["customer"] = is_customer
-            d["http"] = is_http
+            # list to store any affiliate IDs found on the pages
+            affiliates_found = []
 
+            # extract affiliate value from page - standard implementation
+            for item in soup.find_all('input', attrs={"name":"affiliate"}):
+                affiliates_found.append(item["value"])
+            
+            # extract affiliate value from page - DMA implementation
+            for script in soup(text=re.compile(r'skinvars')):
+                vars = json.loads(script.split("= ")[1].replace(";", ""))
+                affiliates_found.append(vars["aid"])
+
+            # prints affiliate names in a comma-separated list in the output file
+            d["extracted_affiliate"] = ", ".join(affiliates_found)
+
+            # check to see if affiliate IDs match
+            if d["affiliate"] == d["extracted_affiliate"]:
+                d["affiliate_match"] = True
+            
             print("processed: " + url)
+        
         except Exception as e:
-            print("issue reaching " + url)
+            print("issue processing " + url)
             print(e)
-            d["connection_status"] = "Issue reaching site: " + str(e)
+            d["error_status"] = "Issue processing site: " + str(e)
         
         output.append(d)
         w.writerow(d)
