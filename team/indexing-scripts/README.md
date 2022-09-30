@@ -32,8 +32,6 @@ pip3.9 install os
 3. `cd` into the folder that contains your script
 4. Run this command: `python3.9 scrape_formatter.py`
 5. The script will run and skip over any files that cause issues. Once it's done, you'll be able to see the processed txt files in the `processed` folder.
-
-
-
-   
-
+6. `cd` into the `processed` folder, and run `cat *.txt >> aggregated`
+7. Then run `gsplit -b 3500K aggregated aggregated- --additional-suffix=".txt"`
+8. The split will create a handful of files (aggregated-aa.txt, aggregated-ab.txt, etc), upload these to the Bulk URL Uploader.
