@@ -2,6 +2,8 @@ import csv
 import pandas as pd
 import os
 
+# to run, enter at the prompt: `python3.9 scrape_formatter.py`
+
 # assign directory
 directory = 'raw'
  
@@ -28,3 +30,6 @@ for filename in os.listdir(directory):
 
         except Exception as e:
             print("Could not proccess " + filename + ". Error: " + str(e))
+
+# when complete, cd into /processed/ run `cat *.txt >> aggregated` from the command line
+# then run `gsplit -b 3500K aggregated aggregated- --additional-suffix=".txt"`
