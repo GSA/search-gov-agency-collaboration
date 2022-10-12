@@ -7,6 +7,8 @@ import re
 import csv
 import json
 import pandas as pd
+from urllib.parse import urlparse
+from urllib.parse import parse_qs
 
 # place the input file (format = xlsx) in a folder named 'input-files' and name it 'market_share_input'
 # the file should have one column labeled "site_handle" (can be empty) and one column labeled "urls"
@@ -58,10 +60,10 @@ with open('output-files/market-share-stats.csv', "w") as csvfile:
 
             # checks to see if any search function is present 
             if body.find("search") > -1:
-                 d["searchbox"] = True
+                    d["searchbox"] = True
 
             # looking for standard search box string (affiliate=) or DMA (skin-search-input usagov-search-autocomplete)
-            if body.find("\"affiliate\"") > -1 or body.find("\"aid\":") > -1 or body.find("skin-search-input usagov-search-autocomplete") > -1:
+            if body.find("\"affiliate\"") > -1 or body.find("\"aid\":") > -1 or body.find("skin-search-input usagov-search-autocomplete") > -1 or body.find("affiliate=") > -1:
                 d["customer"] = True
 
             # checks to see if site incorrectly has http in their search bar, which will lead to an error
@@ -79,19 +81,26 @@ with open('output-files/market-share-stats.csv', "w") as csvfile:
             for script in soup(text=re.compile(r'skinvars')):
                 vars = json.loads(script.split("= ")[1].replace(";", ""))
                 affiliates_found.append(vars["aid"])
+            
+            # extract affiliate value from page - direct link implementation
+            for link in soup.find_all('a', href=True):
+                if link['href'].find("affiliate") > -1:
+                    parsed_url = urlparse(link['href'])
+                    affiliate = str(parse_qs(parsed_url.query)['affiliate'][0])
+                    affiliates_found.append(affiliate)
+
 
             # prints affiliate names in a comma-separated list in the output file
             d["extracted_affiliate"] = ", ".join(affiliates_found)
 
             # check to see if affiliate IDs match
-            if d["affiliate"] == d["extracted_affiliate"]:
+            if d["extracted_affiliate"].find(str(d["affiliate"])) > -1:
                 d["affiliate_match"] = True
             
-            print("processed: " + url)
-        
+            print("processed: " + str(url))
+    
         except Exception as e:
-            print("issue processing " + url)
-            print(e)
+            print("issue processing " + str(url) + " - " + str(e))
             d["error_status"] = "Issue processing site: " + str(e)
         
         output.append(d)
