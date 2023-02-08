@@ -42,13 +42,13 @@ with open('output-files/market-share-stats.csv', "w") as csvfile:
             url = "https://" + url
         d = {"url": url, "affiliate": id, "error_status": "OK"}
         
+        session = HTMLSession()
 
         try: 
             # sets up the HTML session object
             #TODO: handle JS based content
-            session = HTMLSession()
             r = session.get(url)
-            r.html.render()
+            r.html.render(timeout = 800)
             body = r.text
             soup = BeautifulSoup(body, "html.parser")
             
@@ -102,6 +102,8 @@ with open('output-files/market-share-stats.csv', "w") as csvfile:
         except Exception as e:
             print("issue processing " + str(url) + " - " + str(e))
             d["error_status"] = "Issue processing site: " + str(e)
+        
+        session.close()
         
         output.append(d)
         w.writerow(d)
