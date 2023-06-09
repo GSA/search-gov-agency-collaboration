@@ -6,8 +6,10 @@ import os
 
 # assign directory
 directory = 'raw'
- 
-# iterate over files in that directory
+
+main_dataframe = pd.DataFrame()
+
+# iterate over files in that directory  
 for filename in os.listdir(directory):
     f = os.path.join(directory, filename)
     # checking if it is a file
@@ -17,13 +19,13 @@ for filename in os.listdir(directory):
             df = pd.read_csv(f)
 
             # isolate rows that have 200 status
-            good_urls = df.loc[df['Status'].eq("200 no error")]
+            good_urls = df.loc[df['status'].eq("200 no error")]
 
             # dedup lines
-            deduped = good_urls.drop_duplicates(subset=["URL"], keep="first", inplace=False, ignore_index=False)
+            deduped = good_urls.drop_duplicates(subset=["url"], keep="first", inplace=False, ignore_index=False)
 
             # write text file with only URLs from those rows. additional options added to remove extra leading/trailing quotes
-            deduped['URL'].to_csv('processed/' + filename.replace(".csv", "") + ".txt", index=False, header=False, quoting=csv.QUOTE_NONE, quotechar="",  escapechar="\\")
+            deduped['url'].to_csv('processed/' + filename.replace(".csv", "") + ".txt", index=False, header=False, quoting=csv.QUOTE_NONE, quotechar="",  escapechar="\\")
             
             # print message
             print(filename + " is finished processing.")

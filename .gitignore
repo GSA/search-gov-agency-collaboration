@@ -1,5 +1,6 @@
 **/.DS_Store
-.DS_Store
 **/input-files
 **/output-files
 *.txt
+.vscode/*
+.DS_Store
