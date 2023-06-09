@@ -6,8 +6,10 @@ import os
 
 # assign directory
 directory = 'raw'
- 
-# iterate over files in that directory
+
+main_dataframe = pd.DataFrame()
+
+# iterate over files in that directory  
 for filename in os.listdir(directory):
     f = os.path.join(directory, filename)
     # checking if it is a file
